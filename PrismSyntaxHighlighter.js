@@ -1,5 +1,5 @@
 $(function() {
-    $('.post-content pre').each(function() {
+    $('pre, code').each(function() {
         var list = "(true|false|null|main|in|endif|if|endfor|for|while|finally|var|new|function|do|return|void|else|break|catch|instanceof|with|throw|case|default|try|this|switch|continue|typeof|delete)",
             rep1 = new RegExp(list + " ", "ig"),
             rep2 = new RegExp(list + "( ?)<span", "ig"),
