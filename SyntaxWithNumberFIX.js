@@ -13,7 +13,7 @@ $(function() {
             count = 0;
         for (var i = 0; i < num; ++i) {
             count = count + 1;
-            $this.find('.the-num').append(count + '.<br/>');
+            $this.find('.the-num').append(count + '<br/>');
         }
         $this.css('padding-left', $this.find('.the-num').outerWidth() + 14);
     }).attr('title', 'Klik ganda untuk menyeleksi semua kode!').find('.selectable').on("dblclick", function() {
