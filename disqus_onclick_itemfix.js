@@ -1,8 +1,1 @@
-(function() {
-  var bloggerjs = document.createElement('script');
-  bloggerjs.type = 'text/javascript'
-  bloggerjs.async = true;
-  bloggerjs.src = '//'+disqus_shortname+'.disqus.com/blogger_item.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
-})();
-function load_Comments(){var e=document.getElementById("show-disqus");e.style.display="none";var t="kolektorw3";!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://"+t+".disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}()}
+function load_Comments(){document.getElementById("show-disqus").style.display="none";var e;(e=document.createElement("script")).type="text/javascript",e.async=!0,e.src="https://kolektorw3.disqus.com/embed.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//"+disqus_shortname+".disqus.com/blogger_item.js",(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(e)}();
